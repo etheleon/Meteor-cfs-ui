@@ -127,7 +127,7 @@ Template.files.events({
 	    };
 	  },
 	  after: function (error, fileObj) {
-	    console.log("Inserted", fileObj.name);
+	    console.log("Inserted", fileObj.name());
 	  }
 	}),
 });
